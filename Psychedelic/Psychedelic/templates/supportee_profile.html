@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+
+{% block load_static_content %}
+{% load staticfiles %}
+<link rel="stylesheet" href="{% static 'css/profiles.css' %}">
+{% endblock %}
+
+{% block main_body %}
+
+  <!-- Header for profile -->
+  <div class="row">
+    <!-- Photo: -->
+    <div class="col-xs-4">
+      <img src="http://www.tehcute.com/pics/201111/bunny-on-a-bed-big.jpg" class="img-circle" id="userpic"/>
+    </div>
+
+    <!-- Demographics, contact info-->
+    <div class="col-xs-8" id="info">
+      <span class="main-title">Bunny</span>
+      <div class="sub-title">
+        <p>age 1, <span class="supportee">supportee</span> in PA</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+  <div class="col-xs-12 col-sm-8 col-xs-offset-0 col-md-offset-4" id="feed">
+    <div class="sub-title" id="feedmain">
+
+      <div class="feedcontent">
+        Hi! I am a bunny in a bed. For a long time, I've been seeking the softest bed in existence.
+      </div>
+
+      <div class="feedheader"><span class="supportee">Let's get in touch:</span></div>
+      <div class="feedcontent">
+        <ul>
+          <li>I'm in front of Wean Hall every Friday at 9am</li>
+          <li>Call my friend: (555)-555-5555</li>
+        </ul>
+      </div>
+
+      <div class="feedheader"><span class="supportee">Goals:</span></div>
+      <div class="feedcontent">
+        <ul>
+          <li>Sleep more!</li>
+          <li>Make my own pillow</li>
+        </ul>
+      </div>
+
+      <div class="feedheader"><span class="supportee">Wishlist:</span></div>
+      <div class="feedcontent">
+        <ul>
+          <li>Prepaid phone with $20 calling credit</li>
+          <li>Socks</li>
+          <li><a href="http://www.ebay.com/itm/290-160cm-Huge-Comfortable-Cute-Cartoon-Totoro-Bed-Sleeping-Bag-Pad-/390567788610">Totoro bed</a></li>
+          <li>Bunny friends</li>
+          <li>Carrots, yum yum</li>
+        </ul>
+      </div>
+
+      <div class="feedheader"><span class="supportee">My supporters:</span></div>
+      <div class="feedcontent">
+        <ul>
+          <li>Eileeeeeeeeen</li>
+          <li>Rooooohaaaaaaaaaan</li>
+          <li>Shannnnoooooooon</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+{% endblock %}

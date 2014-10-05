@@ -1,0 +1,61 @@
+.supportee {
+  color: cyan;
+}
+
+.supporter {
+  color: fuchsia;
+}
+
+.feedheader {
+  color: white;
+  background-color: black;
+  width: 100%;
+  padding-left: 4%;
+  border-bottom: white 8px double;
+}
+
+.feedcontent {
+  font-size: 90%;
+  padding-left: 6%;
+  padding-bottom: 2%;
+}
+
+.feedcontent ul {
+  border-left: black 8px solid;
+}
+
+#userpic {
+  width: 90%;
+  height: auto;
+  border: 5px gray double;
+  margin: 5%;
+  margin-bottom: 0%;
+}
+
+#info {
+  background-color: black;
+  opacity: 0.55;
+  padding: 5%;
+  height: 40%;
+  border-radius: 10px;
+}
+
+#feedmain {
+  color: black;
+  background-color: white;
+  opacity: 0.6;
+  height: 50%;
+  padding-top: 3%;
+  padding-bottom: 5%;
+  border-bottom-left-radius: 10px;
+  overflow-y: scroll;
+}
+
+.main-title {
+  text-align: left;
+  border-bottom: white 3px solid;
+}
+
+.sub-title {
+  text-align: left;
+}

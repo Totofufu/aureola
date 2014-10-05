@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+
+{% block load_static_content %}
+{% load staticfiles %}
+<link rel="stylesheet" href="{% static 'css/profiles.css' %}">
+{% endblock %}
+
+{% block main_body %}
+
+  <!-- Header for profile -->
+  <div class="row">
+    <!-- Photo: -->
+    <div class="col-xs-4">
+      <img src="http://media.tumblr.com/tumblr_m65b3kWtSx1qj3pct.jpg" class="img-circle" id="userpic"/>
+    </div>
+
+    <!-- Demographics, contact info-->
+    <div class="col-xs-8" id="info">
+      <span class="main-title">Teacup Bun</span>
+      <div class="sub-title">
+        <p>age 2, <span class="supporter">supporter</span> in PA</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+  <div class="col-xs-12 col-sm-8 col-xs-offset-0 col-md-offset-4" id="feed">
+    <div class="sub-title" id="feedmain">
+
+      <div class="feedcontent">
+        Hi! I am a bunny in a teacup.
+      </div>
+
+      <div class="feedheader"><span class="supporter">What I can do:</span></div>
+      <div class="feedcontent">
+        <ul>
+          <li>Give out teacups</li>
+        </ul>
+      </div>
+
+      <div class="feedheader"><span class="supporter">Let's get in touch:</span></div>
+      <div class="feedcontent">
+        <ul>
+          <li>Call (555)-555-5555</li>
+          <li>I am at the Post Office most Sundays</li>
+        </ul>
+      </div>
+
+      <div class="feedheader"><span class="supporter">I have supported:</span></div>
+      <div class="feedcontent">
+        <ul>
+          <li>Bunny</li>
+          <li>Halo</li>
+          <li>Lovely people</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+
+{% endblock %}

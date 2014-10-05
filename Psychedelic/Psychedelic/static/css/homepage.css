@@ -1,0 +1,45 @@
+
+html, body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.main-body {
+  position: relative;
+}
+
+.main-title {
+  font-weight: 200;
+  font-size: 500%;
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+}
+
+.sub-title {
+  font-weight: 200;
+  font-size: 200%;
+  text-align: center;
+  color: white;
+}
+
+.background-img-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  overflow-y: hidden;
+}
+
+.background-img {
+  width: 100%;
+  filter:blur(5px); 
+  -o-filter:blur(5px); 
+  -ms-filter:blur(5px); 
+  -moz-filter:blur(5px); 
+  -webkit-filter:blur(5px);
+}
